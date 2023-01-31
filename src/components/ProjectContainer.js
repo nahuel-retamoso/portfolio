@@ -8,7 +8,7 @@ const ProjectContainer = () => {
             <Text color='whiteAlpha.900' mt='45' mb='5%' p='0.5%' bgColor='blackAlpha.300' >Take a look at my work ㋡</Text>
             <Grid w='93%' h='100%' templateColumns="repeat(2, 1fr)" gap={6}>
 
-                <Project title='Celloluid' description='Rolls camera ecommerce website made with React' source='https://github.com/nahuel-retamoso/celluloid-retamoso' website='google.com' image='./ecommerce.png' />
+                <Project title='Scroll to component' description='Scroll example in react' source='https://github.com/nahuel-retamoso/scroll-to-component' website='https://scroll-to-component.vercel.app/' image='./scroll.png' />
 
                 <Project title='Movie Notes' description='A note app only for movies and series, register what you saw and make list' source='https://github.com/nahuel-retamoso/MovieNotes' website='https://movie-notes.vercel.app/signin' image='./movie-notes.png' />
 
