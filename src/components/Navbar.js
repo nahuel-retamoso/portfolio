@@ -11,7 +11,7 @@ const Navbar = () => {
             </Flex>
             <Flex color='whiteAlpha.900' w='50%' justify='right' align='center'>
                 <Icon as={GoMarkGithub} mr='1%' w={6} h={6} />
-                <Link _hover={{textDecoration: 'none', bg:'red.500'}} p='0.5%' href='#'>Source</Link>
+                <Link _hover={{textDecoration: 'none', bg:'red.500'}} p='0.5%' href='https://github.com/nahuel-retamoso/portfolio'>Source</Link>
             </Flex>
             <Button bgColor='gray.400' ml='5%' mr='20%' w='3%' h='70%' >
                 <MoonIcon />
