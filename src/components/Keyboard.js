@@ -77,7 +77,7 @@ const Keyboard = () => {
 
     return (
         <Tooltip label='This work is based on "keyboard" (https://sketchfab.com/3d-models/keyboard-ba869e8681974cf088736173b8b86fef) by 45P3R4 (https://sketchfab.com/45P3R4) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)' bg='whiteAlpha.200' placement='right' >
-            <Box w='50%' mr='2%' h='65%'ref={containerRef}>
+            <Box w={{base: '80%', '2xl': '50%'}} mr={{base: '0%', '2xl': '2%'}} h={{base: '35%', '2xl': '65%'}} ref={containerRef}>
             </Box>
         </Tooltip>
     );

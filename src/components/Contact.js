@@ -18,11 +18,11 @@ const Contact = () => {
     }
 
     return (
-        <Flex color='whiteAlpha.900' fontFamily='mono' fontSize='1.2em'  w='57%' h='6vh' justify='center' align='center'>
+        <Flex color='whiteAlpha.900' fontFamily='mono' fontSize={{base: '0.9em', '2xl': '1.2em'}}  w={{base: '90vw', '2xl': '57%'}} h='6vh' justify='center' align='center'>
             <Icon as={GoMarkGithub} mr='1.5%' w={8} h={8} />
-            <Link _hover={{textDecoration: 'none', bg:'red.50', color:'blackAlpha.900'}} p='0.2%' mr='18%' href="https://github.com/nahuel-retamoso">Github</Link>
+            <Link _hover={{textDecoration: 'none', bg:'red.50', color:'blackAlpha.900'}} p='0.2%' mr={{base:'7%', '2xl': '18%'}} href="https://github.com/nahuel-retamoso">Github</Link>
             <Icon as={BsLinkedin} mr='1.5%' w={8} h={8} />
-            <Link _hover={{textDecoration: 'none', bg:'red.50', color:'blackAlpha.900'}} p='0.2%' mr='18%' href="https://www.linkedin.com/in/nahuel-retamoso-8a468b10b/" >LinkedIn</Link>
+            <Link _hover={{textDecoration: 'none', bg:'red.50', color:'blackAlpha.900'}} p='0.2%' mr={{base:'7%', '2xl': '18%'}} href="https://www.linkedin.com/in/nahuel-retamoso-8a468b10b/" >LinkedIn</Link>
             <Icon as={RiMailFill} mr='1.5%' w={9} h={9} />
             <Link _hover={{textDecoration: 'none', bg:'red.50', color:'blackAlpha.900'}} p='0.2%' onClick={() => copy()}>Email</Link>
         </Flex>
