@@ -19,7 +19,7 @@ const Keyboard = () => {
     containerRef.current.appendChild(renderer.domElement);
 
     // Ambient light
-    const ambientLight = new THREE.AmbientLight(0xffffff, 0.9);
+    const ambientLight = new THREE.AmbientLight(0xffffff, 0.8);
     scene.add(ambientLight);
 
     // Point light
@@ -27,10 +27,9 @@ const Keyboard = () => {
     pointLight.position.set(5, 5, 5);
     scene.add(pointLight);
     
-    //transparent background
-    renderer.setClearColor( 0x000000, 0 );
 
-    // Añade la cámara a la escena
+    renderer.setClearColor( 0x000000, 0 );
+    
     scene.add(camera);
     camera.lookAt(scene.position);
     camera.zoom = 650;
@@ -44,12 +43,9 @@ const Keyboard = () => {
         const model = gltf.scene;
         scene.add( model );
         model.rotation.x = 0.4;
-        //mover el modelo mas atras
         model.position.z = -4;
-        //mover modelo un poco mas arriba
         model.position.y = 0.1;
 
-        //scale model to fit screen
         model.scale.set(10, 7, 10);
 
         // Animation
@@ -70,6 +66,7 @@ const Keyboard = () => {
     }, undefined, function ( error ) {
         console.error( error );
     } );
+
 
 }, []);
 
