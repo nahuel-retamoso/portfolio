@@ -19,7 +19,7 @@ const Keyboard = () => {
     containerRef.current.appendChild(renderer.domElement);
 
     // Ambient light
-    const ambientLight = new THREE.AmbientLight(0xffffff, 0.3);
+    const ambientLight = new THREE.AmbientLight(0xffffff, 0.9);
     scene.add(ambientLight);
 
     // Point light
