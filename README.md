@@ -11,6 +11,7 @@ nahuelretamoso.com
 
 ## Screenshots
 
+![portfolio-screenshot](https://user-images.githubusercontent.com/34424810/217375915-38775141-71e3-47e4-aea9-148364967f86.png)
 
 
 ## Stack
