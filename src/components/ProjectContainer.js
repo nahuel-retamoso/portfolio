@@ -10,7 +10,7 @@ const ProjectContainer = () => {
 
                 <Project title='Scroll to component' description='Scroll example in react' source='https://github.com/nahuel-retamoso/scroll-to-component' website='https://scroll-to-component.vercel.app/' image='./scroll.png' />
 
-                <Project title='Movie Notes' description='A note app only for movies and series, register what you saw and make list' source='https://github.com/nahuel-retamoso/MovieNotes' website='https://movie-notes.vercel.app/signin' image='./movie-notes.png' />
+                <Project title='Movie Notes' description='A notes app to save movies and series. You can organize your notes using tags.' source='https://github.com/nahuel-retamoso/MovieNotes' website='https://movie-notes.vercel.app/signin' image='./movie-notes.png' />
 
                 <Project title='Ramen Lab' description='A restaurant website with reservation system' source='https://github.com/nahuel-retamoso/ramen-lab' website='https://ramen-lab.vercel.app/' image='./ramen-lab.png' />
 
