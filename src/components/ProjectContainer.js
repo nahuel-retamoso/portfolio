@@ -15,6 +15,8 @@ const ProjectContainer = () => {
                 <Project title='Ramen Lab' description='A restaurant website with reservation system' source='https://github.com/nahuel-retamoso/ramen-lab' website='https://ramen-lab.vercel.app/' image='./ramen-lab.png' />
 
                 <Project title='Celluloid' description='Rolls camera ecommerce website made with React' source='https://github.com/nahuel-retamoso/celluloid-retamoso' website='https://celluloid-ecommerce.vercel.app' image='./ecommerce.png' />
+
+                <Project title='CNC website' description='CNC website build with Next Js, Tailwind and Framer Motion' source='https://github.com/nahuel-retamoso/CNCWebsite' website='https://cnc-website.vercel.app/' image='./cncwebsite.png' />
                 
             </Grid>
         </Flex>
