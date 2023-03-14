@@ -3,7 +3,7 @@ import { FaGithub, FaGlobe } from 'react-icons/fa';
 
 const Project = ({ title, description, source, website, image }) => {
     return (
-        <GridItem w='100%' h='100%' >
+        <GridItem pt='50px' w='100%' h='100%' >
         <Box h='86%'>
             <Image src={image} alt='screen' />
 
