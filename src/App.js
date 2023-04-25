@@ -1,23 +1,22 @@
-import { ChakraProvider, Flex } from "@chakra-ui/react"
+import { Flex, useColorModeValue } from "@chakra-ui/react"
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
-import Title from "./components/Title";
 import Navbar from './components/Navbar';
 import ProjectContainer from "./components/ProjectContainer";
 
 function App() {
+
+  const bgColor = useColorModeValue('custom.bgLight', 'custom.bgDark');
+
   return (
-    <ChakraProvider>
-      <Flex w='100%' direction='column' align='center' bgColor='blue.800' >
-        <Navbar />
-        <Title />
-        <Header />
-        <Contact />
-        <ProjectContainer />
-        <Footer />
-      </Flex>
-    </ChakraProvider>
+    <Flex w='100%' direction='column' align='center' bgColor={bgColor} >
+      <Navbar />
+      <Header />
+      <Contact />
+      <ProjectContainer />
+      <Footer />
+    </Flex>
   );
 }
 

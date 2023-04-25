@@ -38,7 +38,7 @@ const Keyboard = () => {
     
     // Load a glTF resource
     const loader = new GLTFLoader();
-    loader.load( './keyboard/scene.gltf', function ( gltf ) {
+    loader.load( "/keyboard/scene.gltf", function ( gltf ) {
         
         const model = gltf.scene;
         scene.add( model );
@@ -74,7 +74,7 @@ const Keyboard = () => {
 
     return (
         <Tooltip label='This work is based on "keyboard" (https://sketchfab.com/3d-models/keyboard-ba869e8681974cf088736173b8b86fef) by 45P3R4 (https://sketchfab.com/45P3R4) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)' bg='whiteAlpha.200' placement='right' >
-            <Box w={{base: '80%', 'xl': '50%'}} mr={{base: '0%', 'xl': '2%'}} h={{base: '35vh', 'xl': '65%'}} ref={containerRef}>
+            <Box w={{base: '80%', 'xl': '50%'}} h={{base: '35vh', 'xl': '100%'}} ref={containerRef}>
             </Box>
         </Tooltip>
     );
