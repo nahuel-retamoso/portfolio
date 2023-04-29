@@ -5,6 +5,7 @@ import movieNotes from "../assets/projects/movie-notes.png"
 import ramenLab from "../assets/projects/ramen-lab.png"
 import ecommerce from "../assets/projects/ecommerce.png"
 import cncWebsite from "../assets/projects/cncwebsite.png"
+import ecommerceRopa from "../assets/projects/ecommerce-ropa.png"
 
 const ProjectContainer = () => {
 
@@ -20,11 +21,13 @@ const ProjectContainer = () => {
 
                 <Project title='Movie Notes' description='Te permite crear notas y comentarios sobre películas y series, y agregar etiquetas para una fácil búsqueda en el futuro. ' source='https://github.com/nahuel-retamoso/MovieNotes' website='https://movie-notes.vercel.app/signin' image={movieNotes} />
 
-                <Project title='Ramen Lab' description='Website para un restaurante con sistema de reserva' source='https://github.com/nahuel-retamoso/ramen-lab' website='https://ramen-lab.vercel.app/' image={ramenLab} />
+                <Project title='Ramen Lab' description='Website para un restaurante con sistema de reserva y email de confirmacion, hecho con React, Firebase, Material-UI y Emailjs' source='https://github.com/nahuel-retamoso/ramen-lab' website='https://ramen-lab.vercel.app/' image={ramenLab} />
 
                 <Project title='Celluloid' description='Ecommerce hecho para el curso de React de Coderhouse' source='https://github.com/nahuel-retamoso/celluloid-retamoso' website='https://celluloid-ecommerce.vercel.app' image={ecommerce} />
 
                 <Project title='CNC website' description='Website hecho con NextJs, Tailwind y Framer Motion' source='https://github.com/nahuel-retamoso/CNCWebsite' website='https://cnc-website.vercel.app/' image={cncWebsite} />
+
+                <Project title='Ecommerce' description='Ecommerce hecho con React, Tailwind, Firebase y EmailJS' source='https://github.com/nahuel-retamoso/Ecommerce' website='https://ecommerce-kappa-wine.vercel.app/' image={ecommerceRopa} />
                 
             </Grid>
         </Flex>
