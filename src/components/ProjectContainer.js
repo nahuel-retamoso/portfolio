@@ -6,6 +6,7 @@ import ramenLab from "../assets/projects/ramen-lab.png"
 import ecommerce from "../assets/projects/ecommerce.png"
 import cncWebsite from "../assets/projects/cncwebsite.png"
 import ecommerceRopa from "../assets/projects/ecommerce-ropa.png"
+import chart from "../assets/projects/chart.png"
 
 const ProjectContainer = () => {
 
@@ -28,6 +29,8 @@ const ProjectContainer = () => {
                 <Project title='CNC website' description='Website hecho con NextJs, Tailwind y Framer Motion' source='https://github.com/nahuel-retamoso/CNCWebsite' website='https://cnc-website.vercel.app/' image={cncWebsite} />
 
                 <Project title='Ecommerce' description='Ecommerce hecho con React, Tailwind, Firebase y EmailJS' source='https://github.com/nahuel-retamoso/Ecommerce' website='https://ecommerce-kappa-wine.vercel.app/' image={ecommerceRopa} />
+
+                <Project title='Charts' description='Ingresa valores mediante inputs y lo grafica usando Recharts' source='https://github.com/nahuel-retamoso/Project-Chart/tree/main' website='https://project-chart.vercel.app/' image={chart} />
                 
             </Grid>
         </Flex>
